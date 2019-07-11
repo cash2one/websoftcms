@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:2:{s:4:"cate";a:4:{i:1;a:4:{s:2:"id";i:1;s:3:"pid";i:0;s:4:"name";s:12:"关于我们";s:5:"alias";s:7:"aboutus";}i:3;a:4:{s:2:"id";i:3;s:3:"pid";i:0;s:4:"name";s:12:"用户协议";s:5:"alias";s:11:"yonghuxieyi";}i:2;a:4:{s:2:"id";i:2;s:3:"pid";i:0;s:4:"name";s:12:"联系我们";s:5:"alias";s:8:"contacts";}i:4;a:4:{s:2:"id";i:4;s:3:"pid";i:0;s:4:"name";s:12:"会员权益";s:5:"alias";s:13:"huiyuanquanyi";}}s:4:"tree";a:4:{i:1;a:4:{s:2:"id";i:1;s:3:"pid";i:0;s:4:"name";s:12:"关于我们";s:5:"alias";s:7:"aboutus";}i:3;a:4:{s:2:"id";i:3;s:3:"pid";i:0;s:4:"name";s:12:"用户协议";s:5:"alias";s:11:"yonghuxieyi";}i:2;a:4:{s:2:"id";i:2;s:3:"pid";i:0;s:4:"name";s:12:"联系我们";s:5:"alias";s:8:"contacts";}i:4;a:4:{s:2:"id";i:4;s:3:"pid";i:0;s:4:"name";s:12:"会员权益";s:5:"alias";s:13:"huiyuanquanyi";}}}

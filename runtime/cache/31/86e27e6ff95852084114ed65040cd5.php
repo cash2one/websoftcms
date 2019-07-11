@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:2:{s:4:"cate";a:5:{i:1;a:4:{s:2:"id";i:1;s:3:"pid";i:0;s:4:"name";s:6:"在售";s:5:"alias";s:7:"zaishou";}i:2;a:4:{s:2:"id";i:2;s:3:"pid";i:0;s:4:"name";s:6:"新盘";s:5:"alias";s:6:"xinpan";}i:3;a:4:{s:2:"id";i:3;s:3:"pid";i:0;s:4:"name";s:6:"尾盘";s:5:"alias";s:6:"weipan";}i:4;a:4:{s:2:"id";i:4;s:3:"pid";i:0;s:4:"name";s:6:"售馨";s:5:"alias";s:4:"shou";}i:5;a:4:{s:2:"id";i:5;s:3:"pid";i:0;s:4:"name";s:9:"未开盘";s:5:"alias";s:9:"weikaipan";}}s:4:"tree";a:5:{i:1;a:4:{s:2:"id";i:1;s:3:"pid";i:0;s:4:"name";s:6:"在售";s:5:"alias";s:7:"zaishou";}i:2;a:4:{s:2:"id";i:2;s:3:"pid";i:0;s:4:"name";s:6:"新盘";s:5:"alias";s:6:"xinpan";}i:3;a:4:{s:2:"id";i:3;s:3:"pid";i:0;s:4:"name";s:6:"尾盘";s:5:"alias";s:6:"weipan";}i:4;a:4:{s:2:"id";i:4;s:3:"pid";i:0;s:4:"name";s:6:"售馨";s:5:"alias";s:4:"shou";}i:5;a:4:{s:2:"id";i:5;s:3:"pid";i:0;s:4:"name";s:9:"未开盘";s:5:"alias";s:9:"weikaipan";}}}

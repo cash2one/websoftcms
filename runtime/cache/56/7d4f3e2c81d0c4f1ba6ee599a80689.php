@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:2:{s:4:"cate";a:4:{i:95;a:4:{s:2:"id";i:95;s:3:"pid";i:0;s:4:"name";s:12:"满五唯一";s:5:"alias";s:10:"manwuweiyi";}i:96;a:4:{s:2:"id";i:96;s:3:"pid";i:0;s:4:"name";s:12:"靠近学校";s:5:"alias";s:13:"kaojinxuexiao";}i:97;a:4:{s:2:"id";i:97;s:3:"pid";i:0;s:4:"name";s:9:"精装修";s:5:"alias";s:13:"jingzhuangxiu";}i:98;a:4:{s:2:"id";i:98;s:3:"pid";i:0;s:4:"name";s:12:"家具齐全";s:5:"alias";s:11:"jiajuqiquan";}}s:4:"tree";a:4:{i:95;a:4:{s:2:"id";i:95;s:3:"pid";i:0;s:4:"name";s:12:"满五唯一";s:5:"alias";s:10:"manwuweiyi";}i:96;a:4:{s:2:"id";i:96;s:3:"pid";i:0;s:4:"name";s:12:"靠近学校";s:5:"alias";s:13:"kaojinxuexiao";}i:97;a:4:{s:2:"id";i:97;s:3:"pid";i:0;s:4:"name";s:9:"精装修";s:5:"alias";s:13:"jingzhuangxiu";}i:98;a:4:{s:2:"id";i:98;s:3:"pid";i:0;s:4:"name";s:12:"家具齐全";s:5:"alias";s:11:"jiajuqiquan";}}}

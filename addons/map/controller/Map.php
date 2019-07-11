@@ -1,0 +1,75 @@
+<?php
+/**
+ * 南宁市网宿信息科技有限公司
+ * websoftcms
+ * User: zzlin QQ:170083662
+ * Date: 2018/3/25
+ * Time: 17:41
+ * Map.php
+ * version:v3.0.0
+ */
+namespace addons\map\controller;
+use \think\addons\Controller;
+class Map extends Controller
+{
+
+    public function install()
+    {
+        return;
+    }
+    public function uninstall()
+    {
+        return;
+    }
+    /**
+     * @return \think\response\Json
+     * 根据地址获取经纬度
+     */
+    public function getLocationByAddress()
+    {
+        $city      = input('get.city/d',0);
+        $city_name = getCityName($city);
+        $area_name = input('get.area');
+        $address   = input('get.address');
+        $ak        = config('baidu_map_ak');
+        empty($address) && $address = $city_name.$area_name;
+        $url = "http://api.map.baidu.com/geocoder/v2/?address={$address}&city={$city_name}{$area_name}&output=json&ak={$ak}";
+        $result = file_get_contents($url);
+        $result = json_decode($result,true);
+        $return['code'] = 0;
+        if($result['status'] == 0)
+        {
+            $return['code'] = 1;
+            $map['lng'] = $result['result']['location']['lng'];
+            $map['lat'] = $result['result']['location']['lat'];
+            $map['map'] = $map['lng'].','.$map['lat'];
+            $return['data'] = $map;
+        }
+        return json($return);
+    }
+
+    /**
+     * @return mixed
+     * 地图标注页
+     */
+    public function updateLocation()
+    {
+        $location = input('get.map');
+        $city = input('get.city/d',0);
+        $lng = 0;//'110.211023,';
+        $lat = 0;//'20.007536';
+        if($location && strpos($location,',')!==false)
+        {
+            $map = explode(',',$location);
+            $lng = $map[0];
+            $lat = isset($map[1]) ? $map[1] : 0;
+        }
+        $city_name = $city ? getCityName($city) : '海口';
+        $this->assign('lng',$lng);
+        $this->assign('lat',$lat);
+        $this->assign('ak',config('baidu_map_ak'));
+        $this->assign('city_name',$city_name);
+        $this->assign('city',$city);
+        return $this->fetch('map_mark');
+    }
+}

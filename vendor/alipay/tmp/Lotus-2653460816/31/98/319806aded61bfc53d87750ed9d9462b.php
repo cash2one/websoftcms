@@ -1,0 +1,1 @@
+<?php exit;?>s:127:"/home/wwwroot/gxwebsoft/public_html/vendor/alipay/lotusphp_runtime/Cache/QueryEngine/TableDataGateway/CacheTableDataGateway.php";

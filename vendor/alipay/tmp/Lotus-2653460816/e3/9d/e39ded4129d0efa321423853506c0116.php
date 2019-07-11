@@ -1,0 +1,1 @@
+<?php exit;?>a:2:{i:0;s:79:"/home/wwwroot/gxwebsoft/public_html/vendor/alipay/lotusphp_runtime/shortcut.php";i:1;s:68:"/home/wwwroot/gxwebsoft/public_html/vendor/alipay/aop/AopEncrypt.php";}

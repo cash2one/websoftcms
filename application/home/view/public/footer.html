@@ -1,0 +1,70 @@
+<div class="comWidth">
+    <div class="link_box clearfix">
+        <div class="leftArea">
+            <div class="house_link clearfix">
+                <a href="{:url('House/index')}">{$cityInfo.name}新楼盘</a>
+                <a href="{:url('Estate/index')}">{$cityInfo.name}二手小区</a>
+                <a href="{:url('Second/index')}">{$cityInfo.name}二手房</a>
+                <a href="{:url('Rental/index')}">{$cityInfo.name}出租房</a>
+            </div>
+            {if condition="$controller eq 'index'"}
+            <div class="tab_link clearfix">
+                <a href="javascript:;" style="text-decoration: none;">友情链接：</a>
+                {fang:lists table='link' where='cate_id=1 and status=1 and city = $cityId' field='name,url' order='ordid asc,id desc' limit='40' id='data'}
+                <a href="{$data.url}" target="_blank" title="{$data.name}">{$data.name}</a>
+                {/fang:lists}
+            </div>
+            {else /}
+            <div class="tab_link clearfix" style="margin-top:10px;">
+                {php}$where_str = "status=1";$city_all_child && $where_str.= " and city in (".$city_all_child.")";{/php}
+                {fang:lists table='house' where='$where_str' field='id,title' order='ordid asc,id desc' limit='50' id='data'}
+                <a href="{:url('House/detail',['id'=>$data['id']])}" target="_blank" title="{$data.title}">{$data.title}</a>
+                {/fang:lists}
+            </div>
+            {/if}
+            <div class="other_link">
+                {php}$n = 0;{/php}
+                {volist name='menu' id='vo'}
+                {if condition='$vo.pos eq 2'}
+                {php}$n++;{/php}
+                <a href="{$vo.url}" title="{$vo.title}">{$vo.title}</a>
+                {/if}
+                {/volist}
+                <a href="{:url('agent/Login/index@agent')}">代理登录</a>
+                <a href="javascript:;">服务热线：{$site.telphone}</a>
+            </div>
+        </div>
+        <div class="rightArea">
+            <div class="ewm">
+                <img src="{$site.weixin_qrcode}" width="140" height="140" alt="" class="img">
+                <p>官方微信公众号</p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <p>地址：{$site.address} </p>
+        <p>版权所有 &copy;2009-{:date('Y')} {$site.company_name} All Rights Reserved. {$site.icp|raw}</p>
+    </div>
+</div>
+<div class="scroll-top" id="scroll-top">
+    <span class="text">返回顶部</span>
+    <span class="ico"></span>
+</div>
+{$site.pc_js|raw}
+<script>
+    $(function(){
+        var h = $(window).height();
+        $(document).on('scroll',function(){
+            var top=$(document).scrollTop();
+            if(top > h)
+            {
+                $("#scroll-top").show();
+            }else{
+                $("#scroll-top").hide();
+            }
+        });
+        $("#scroll-top").on('click',function(){
+            $('body,html').animate({scrollTop:0},300);
+        })
+    });
+</script>

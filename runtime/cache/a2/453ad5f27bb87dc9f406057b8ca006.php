@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:2:{s:4:"cate";a:4:{i:41;a:4:{s:2:"id";i:41;s:3:"pid";i:0;s:4:"name";s:6:"毛坯";s:5:"alias";s:5:"maopi";}i:42;a:4:{s:2:"id";i:42;s:3:"pid";i:0;s:4:"name";s:6:"简装";s:5:"alias";s:10:"jianzhuang";}i:43;a:4:{s:2:"id";i:43;s:3:"pid";i:0;s:4:"name";s:6:"精装";s:5:"alias";s:10:"jingzhuang";}i:44;a:4:{s:2:"id";i:44;s:3:"pid";i:0;s:4:"name";s:6:"豪装";s:5:"alias";s:9:"haozhuang";}}s:4:"tree";a:4:{i:41;a:4:{s:2:"id";i:41;s:3:"pid";i:0;s:4:"name";s:6:"毛坯";s:5:"alias";s:5:"maopi";}i:42;a:4:{s:2:"id";i:42;s:3:"pid";i:0;s:4:"name";s:6:"简装";s:5:"alias";s:10:"jianzhuang";}i:43;a:4:{s:2:"id";i:43;s:3:"pid";i:0;s:4:"name";s:6:"精装";s:5:"alias";s:10:"jingzhuang";}i:44;a:4:{s:2:"id";i:44;s:3:"pid";i:0;s:4:"name";s:6:"豪装";s:5:"alias";s:9:"haozhuang";}}}

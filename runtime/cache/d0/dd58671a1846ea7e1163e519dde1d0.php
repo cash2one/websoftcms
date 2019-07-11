@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:2:{s:4:"cate";a:4:{i:45;a:4:{s:2:"id";i:45;s:3:"pid";i:0;s:4:"name";s:6:"住宅";s:5:"alias";s:7:"zhuzhai";}i:46;a:4:{s:2:"id";i:46;s:3:"pid";i:0;s:4:"name";s:9:"写字楼";s:5:"alias";s:8:"xiezilou";}i:47;a:4:{s:2:"id";i:47;s:3:"pid";i:0;s:4:"name";s:6:"别墅";s:5:"alias";s:6:"bieshu";}i:48;a:4:{s:2:"id";i:48;s:3:"pid";i:0;s:4:"name";s:6:"商铺";s:5:"alias";s:7:"shangpu";}}s:4:"tree";a:4:{i:45;a:4:{s:2:"id";i:45;s:3:"pid";i:0;s:4:"name";s:6:"住宅";s:5:"alias";s:7:"zhuzhai";}i:46;a:4:{s:2:"id";i:46;s:3:"pid";i:0;s:4:"name";s:9:"写字楼";s:5:"alias";s:8:"xiezilou";}i:47;a:4:{s:2:"id";i:47;s:3:"pid";i:0;s:4:"name";s:6:"别墅";s:5:"alias";s:6:"bieshu";}i:48;a:4:{s:2:"id";i:48;s:3:"pid";i:0;s:4:"name";s:6:"商铺";s:5:"alias";s:7:"shangpu";}}}

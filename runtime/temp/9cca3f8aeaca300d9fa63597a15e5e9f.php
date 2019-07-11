@@ -1,0 +1,90 @@
+<?php /*a:2:{s:76:"/home/wwwroot/gxwebsoft/public_html/application/manage/view/pages/index.html";i:1517994834;s:78:"/home/wwwroot/gxwebsoft/public_html/application/manage/view/public/layout.html";i:1562673466;}*/ ?>
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>管理中心</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="/static/layui/css/layui.css">
+    <link rel="stylesheet" href="/static/manage/css/themes/blue.1.css">
+    <script src="/static/layui/layui.js"></script>
+    <style>
+        .subnav{padding:5px 15px;}
+        .layui-form-item label em{display:none;}
+    </style>
+</head>
+
+<body class="body">
+<div class="subnav">
+    <?php if(!empty($sub_menu) OR !empty($big_menu)): ?>
+    <div class="content_menu ib_a blue line_x">
+    	<?php if(!(empty($big_menu) || (($big_menu instanceof \think\Collection || $big_menu instanceof \think\Paginator ) && $big_menu->isEmpty()))): if(isset($normal)): ?>
+        <a class="layui-btn" href="<?php echo htmlentities($big_menu['iframe']); ?>"><?php echo htmlentities($big_menu['title']); ?></a>
+        <?php else: ?>
+    	<a class="layui-btn J_showDialog" href="javascript:void(0);" data-uri="<?php echo htmlentities($big_menu['iframe']); ?>" data-title="<?php echo htmlentities($big_menu['title']); ?>" data-id="<?php echo htmlentities($big_menu['id']); ?>" data-width="<?php echo htmlentities($big_menu['width']); ?>" data-show_btn="<?php echo htmlentities((isset($big_menu['btn']) && ($big_menu['btn'] !== '')?$big_menu['btn']:true)); ?>" data-height="<?php echo htmlentities($big_menu['height']); ?>"><?php echo htmlentities($big_menu['title']); ?></a>
+        <?php endif; ?>
+        <?php endif; if(!(empty($sub_menu) || (($sub_menu instanceof \think\Collection || $sub_menu instanceof \think\Paginator ) && $sub_menu->isEmpty()))): if(is_array($sub_menu) || $sub_menu instanceof \think\Collection || $sub_menu instanceof \think\Paginator): $key = 0; $__LIST__ = $sub_menu;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$val): $mod = ($key % 2 );++$key;if($key != 1): ?><span>|</span><?php endif; ?>
+        <a href="<?php echo htmlentities($val['url']); ?>" class="layui-btn-xs <?php echo htmlentities($val['class']); ?>"><?php echo htmlentities($val['title']); ?></a>
+        <?php endforeach; endif; else: echo "" ;endif; ?>
+        <?php endif; ?>
+    </div>
+    <?php endif; ?>
+</div>
+<div class="layui-fluid">
+
+<!--列表-->
+<div class="pad_lr_10" >
+
+
+    <form class="layui-form" action="">
+        <div class="layui-form layui-border-box layui-table-view">
+            <div class="layui-table-header">
+                <table class="layui-table list-table" cellspacing="0" cellpadding="0" border="0" data-uri="<?php echo url('Pages/ajaxEdit'); ?>">
+                    <colgroup>
+                        <col width="5%">
+                        <col width="80%">
+                        <col width="15%">
+
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>
+                            <div class="layui-table-cell"><span>ID</span></div>
+                        </th>
+                        <th>
+                            <div class="layui-table-cell"><span>所属分类</span></div>
+                        </th>
+                        <th>
+                            <div class="layui-table-cell" align="center"><span>操作</span></div>
+                        </th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php echo $list; ?>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+       </form>
+        </div>
+<script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/plugins/jquery.treetable.js"></script>
+        <script>
+            $(function(){
+                $("#J_cate_tree").treeTable({indent:20, treeColumn:1, clickableNodeNames:true, initialState:'expanded'});
+            });
+        </script>
+
+</div>
+<input type="hidden" id="attr" value="<?php echo url('Linkmenu/ajaxGetAttr'); ?>"/>
+<input type="hidden" id="attr-cache" value="<?php echo url('Linkmenu/ajaxGetMenuCache'); ?>">
+<script src="/static/manage/js/dialog.js"></script>
+<script>
+    layui.config({
+        base: '/static/manage/js/'
+    });
+</script>
+</body>
+</html>
+

@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:2:{s:4:"cate";a:3:{i:100;a:4:{s:2:"id";i:100;s:3:"pid";i:0;s:4:"name";s:12:"纯写字楼";s:5:"alias";s:12:"chunxiezilou";}i:101;a:4:{s:2:"id";i:101;s:3:"pid";i:0;s:4:"name";s:15:"商业综合体";s:5:"alias";s:15:"shangyezongheti";}i:102;a:4:{s:2:"id";i:102;s:3:"pid";i:0;s:4:"name";s:15:"酒店写字楼";s:5:"alias";s:15:"jiudianxiezilou";}}s:4:"tree";a:3:{i:100;a:4:{s:2:"id";i:100;s:3:"pid";i:0;s:4:"name";s:12:"纯写字楼";s:5:"alias";s:12:"chunxiezilou";}i:101;a:4:{s:2:"id";i:101;s:3:"pid";i:0;s:4:"name";s:15:"商业综合体";s:5:"alias";s:15:"shangyezongheti";}i:102;a:4:{s:2:"id";i:102;s:3:"pid";i:0;s:4:"name";s:15:"酒店写字楼";s:5:"alias";s:15:"jiudianxiezilou";}}}

@@ -1,0 +1,65 @@
+<div class="topBar">
+        <div class="comWidth clearfix">
+            <div class="logo fl">
+                <a href="{:url('Index/index')}" title="{$site.title}">
+                    <img src="{$site.pc_logo_white}" alt="{$site.title}" />
+                </a>
+            </div>
+            <div class="fl sele_city">
+                <a href="javascript:;"  class="sele_city_btn">{$cityInfo['name']}<img src="__IMG__/icon/icon15.png" alt="" class="icon"></a>
+                <div class="city_list clearfix">
+                    <i class="city-close">关闭</i>
+                  
+                    {volist name='top_nav_city.city' id='vo'}
+                    <dl class="clearfix">
+                        <dt class="bold">{$key}</dt>
+                        {volist name='vo' id='val'}
+                        <dd {if condition="$val.is_hot eq 1"}class="hot"{/if}><a href="{:url($controller.'/index@'.$val['domain'])}" title="{$val.name}">{$val.name}</a></dd>
+                        {/volist}
+                    </dl>
+                    {/volist}
+                 
+                </div>
+            </div>
+            <div class="navBar fl">
+                <ul class="nav_list fl">
+                    {volist name='menu' id='vo'}
+                    {if condition='$vo.pos eq 1'}
+                    <li {if condition="$vo['model'] eq $cur_url"}class="active"{/if}>
+                    <a href="{$vo['url']}" title="{$vo.title}"  target="{$vo.open_type}">{$vo.title}</a>
+                    {present name="vo['_child']"}
+                    <ul>
+                        {volist name="vo['_child']" id="val"}
+                        <li><a href="{$val.url}" title="{$val.title}" target="{$val.open_type}">{$val.title}</a></li>
+                        {/volist}
+                    </ul>
+                    {/present}
+                </li>
+                    {/if}
+                    {/volist}
+                </ul>
+            </div>
+            <div class="log_link fr">
+                {notempty name='userInfo'}
+                <!-- 已登录状态 -->
+                <div class="loged">
+                    <div class="user_info">
+                        <img src="{:getAvatar($userInfo['id'],30)}" width="30" height="30" alt="">
+                        <span class="name">{:hideStr($userInfo['nick_name'])}</span>
+                    </div>
+                    <div class="slide_tog" style="display:none;">
+                        <a href="{:url('user.index/index')}">用户中心</a>
+                        <a href="{:url('Login/logout')}">退出登录</a>
+                    </div>
+                </div>
+                {else /}
+                <!-- 未登录状态 -->
+                <div class="not_log">
+                    <a href="{:url('Login/index')}">登录</a>
+                    /
+                    <a href="{:url('Login/register')}">注册</a>
+                </div>
+                {/notempty}
+            </div>
+        </div>
+    </div>

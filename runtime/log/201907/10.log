@@ -1,0 +1,2297 @@
+---------------------------------------------------------------
+[2019-07-10T12:05:59+08:00] 113.16.60.198 GET admin.gxwebsoft.com/member/ajaxcheckuser.html?clientid=user_name&user_name=%E8%B5%B5%E5%BF%A0%E6%9E%97&_=1562731564903
+[运行时间：0.137518s] [吞吐率：7.27req/s] [内存消耗：4,759.52kb] [文件加载：123]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/member/add/menuid/522.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'clientid' => 'user_name',
+  'user_name' => '赵忠林',
+  '_' => '1562731564903',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000812s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user` [ RunTime:0.002871s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `fang_user` WHERE  `user_name` = '赵忠林' LIMIT 1 [ RunTime:0.000638s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:00+08:00] 113.16.60.198 GET admin.gxwebsoft.com/member/index/menuid/519.html
+[运行时间：0.347436s] [吞吐率：2.88req/s] [内存消耗：5,064.48kb] [文件加载：132]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '519',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/member/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'pages',
+  4 => 'list',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000838s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user` [ RunTime:0.002063s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user` WHERE  `model` IN (1) LIMIT 1 [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT * FROM `fang_user` WHERE  `model` IN (1) ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000740s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:01+08:00] 113.16.60.198 GET admin.gxwebsoft.com/member/add/menuid/522.html
+[运行时间：0.114545s] [吞吐率：8.73req/s] [内存消耗：4,795.42kb] [文件加载：127]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '522',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/member/add.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+) ]
+---------------------------------------------------------------
+[2019-07-10T12:06:04+08:00] 113.16.60.198 GET admin.gxwebsoft.com/setting/user/menuid/520.html
+[运行时间：0.125539s] [吞吐率：7.97req/s] [内存消耗：4,768.31kb] [文件加载：126]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '520',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-07-10T12:06:05+08:00] 113.16.60.198 GET admin.gxwebsoft.com/setting/index/type/user/menuid/520.html
+[运行时间：0.120635s] [吞吐率：8.29req/s] [内存消耗：4,394.12kb] [文件加载：116]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'user',
+  'menuid' => '520',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/public/jump/manage/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[2019-07-10T12:06:05+08:00] 113.16.60.198 GET admin.gxwebsoft.com/member/index/menuid/519.html
+[运行时间：0.128917s] [吞吐率：7.76req/s] [内存消耗：5,064.48kb] [文件加载：132]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '519',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/member/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'pages',
+  4 => 'list',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user` [ RunTime:0.002364s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user` WHERE  `model` IN (1) LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `fang_user` WHERE  `model` IN (1) ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:07+08:00] 113.16.60.198 GET admin.gxwebsoft.com/member/index/menuid/521.html?model=2,3,4
+[运行时间：0.113199s] [吞吐率：8.83req/s] [内存消耗：5,049.03kb] [文件加载：131]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'model' => '2,3,4',
+  'menuid' => '521',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/member/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'pages',
+  4 => 'list',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user` [ RunTime:0.001890s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user` WHERE  `model` IN (2,3,4) LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `fang_user` WHERE  `model` IN (2,3,4) ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:08+08:00] 113.16.60.198 GET admin.gxwebsoft.com/
+[运行时间：0.147250s] [吞吐率：6.79req/s] [内存消耗：4,501.44kb] [文件加载：117]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'Index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'append' => 
+    array (
+      'city' => 1,
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'city' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/index/index.html [ array (
+  0 => 'menuid',
+  1 => 'my_admin',
+  2 => 'cache_url',
+) ]
+---------------------------------------------------------------
+[2019-07-10T12:06:08+08:00] 113.16.60.198 GET admin.gxwebsoft.com/build/css/nprogress.css
+[运行时间：0.082505s] [吞吐率：12.12req/s] [内存消耗：3,244.51kb] [文件加载：106]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/public/404.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-07-10T12:06:08+08:00] 113.16.60.198 GET admin.gxwebsoft.com/build/css/message.css
+[运行时间：0.061175s] [吞吐率：16.35req/s] [内存消耗：3,244.51kb] [文件加载：106]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/public/404.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-07-10T12:06:08+08:00] 113.16.60.198 GET admin.gxwebsoft.com/index/gettopmenu.html
+[运行时间：0.180087s] [吞吐率：5.55req/s] [内存消耗：4,473.11kb] [文件加载：116]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-07-10T12:06:08+08:00] 113.16.60.198 GET admin.gxwebsoft.com/index/panel.html
+[运行时间：0.317819s] [吞吐率：3.15req/s] [内存消耗：4,594.03kb] [文件加载：118]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/index/panel.html [ array (
+  0 => 'menuid',
+  1 => 'system_info',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001293s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.000860s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:09+08:00] 113.16.60.198 GET admin.gxwebsoft.com/index/left.html?menuid=9
+[运行时间：0.141233s] [吞吐率：7.08req/s] [内存消耗：4,821.75kb] [文件加载：125]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-07-10T12:06:11+08:00] 113.16.60.198 GET admin.gxwebsoft.com/index/left.html?menuid=517
+[运行时间：0.183899s] [吞吐率：5.44req/s] [内存消耗：4,825.09kb] [文件加载：125]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '517',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-07-10T12:06:13+08:00] 113.16.60.198 GET admin.gxwebsoft.com/comment/index/menuid/525.html
+[运行时间：0.121706s] [吞吐率：8.22req/s] [内存消耗：5,191.73kb] [文件加载：133]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '525',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/comment/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000979s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user_comment` [ RunTime:0.003014s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` LIMIT 1 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT `c`.*,`b`.`nick_name` FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` ORDER BY `c`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:13+08:00] 113.16.60.198 GET admin.gxwebsoft.com/comment/index/menuid/525.html
+[运行时间：0.162926s] [吞吐率：6.14req/s] [内存消耗：5,006.23kb] [文件加载：131]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/comment/index/menuid/525.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '525',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/comment/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000972s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user_comment` [ RunTime:0.025794s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` LIMIT 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT `c`.*,`b`.`nick_name` FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` ORDER BY `c`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:17+08:00] 113.16.60.198 GET admin.gxwebsoft.com/subscribe/index/menuid/526.html
+[运行时间：0.163752s] [吞吐率：6.11req/s] [内存消耗：5,222.80kb] [文件加载：133]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '526',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/subscribe/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+  6 => 'type',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000861s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_subscribe` [ RunTime:0.001908s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' LIMIT 1 [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT `s`.*,`u`.`nick_name`,`h`.`title` FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' ORDER BY `s`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000883s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:17+08:00] 113.16.60.198 GET admin.gxwebsoft.com/subscribe/index/menuid/526.html
+[运行时间：0.148558s] [吞吐率：6.73req/s] [内存消耗：5,028.03kb] [文件加载：131]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/subscribe/index/menuid/526.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '526',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/subscribe/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+  6 => 'type',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_subscribe` [ RunTime:0.001756s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `s`.*,`u`.`nick_name`,`h`.`title` FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' ORDER BY `s`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:18+08:00] 113.16.60.198 GET admin.gxwebsoft.com/subscribe/index/menuid/526.html
+[运行时间：0.138547s] [吞吐率：7.22req/s] [内存消耗：5,023.53kb] [文件加载：130]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '526',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/subscribe/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+  6 => 'type',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_subscribe` [ RunTime:0.002755s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `s`.*,`u`.`nick_name`,`h`.`title` FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' ORDER BY `s`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:18+08:00] 113.16.60.198 GET admin.gxwebsoft.com/subscribe/index/menuid/526.html
+[运行时间：0.112854s] [吞吐率：8.86req/s] [内存消耗：5,028.03kb] [文件加载：131]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/subscribe/index/menuid/526.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '526',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/subscribe/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+  6 => 'type',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_subscribe` [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT `s`.*,`u`.`nick_name`,`h`.`title` FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' ORDER BY `s`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:23+08:00] 113.16.60.198 GET admin.gxwebsoft.com/subscribe/ajaxedit.html?id=2&field=status&val=1
+[运行时间：0.113866s] [吞吐率：8.78req/s] [内存消耗：4,709.18kb] [文件加载：123]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/subscribe/index/menuid/526.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'field' => 'status',
+  'val' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000821s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_subscribe` [ RunTime:0.002034s ]
+[ sql ] [ SQL ] UPDATE `fang_subscribe`  SET `status` = 1  WHERE  `id` = 2 [ RunTime:0.000928s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:24+08:00] 113.16.60.198 GET admin.gxwebsoft.com/subscribe/ajaxedit.html?id=2&field=status&val=0
+[运行时间：0.120332s] [吞吐率：8.31req/s] [内存消耗：4,709.18kb] [文件加载：123]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/subscribe/index/menuid/526.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'field' => 'status',
+  'val' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000829s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_subscribe` [ RunTime:0.001640s ]
+[ sql ] [ SQL ] UPDATE `fang_subscribe`  SET `status` = 0  WHERE  `id` = 2 [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:26+08:00] 113.16.60.198 GET admin.gxwebsoft.com/member/ajaxgetbroker/sid/2/menuid/0.html
+[运行时间：0.152775s] [吞吐率：6.55req/s] [内存消耗：5,179.54kb] [文件加载：132]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/subscribe/index/menuid/526.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '2',
+  'menuid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/member/ajax_get_broker.html [ array (
+  0 => 'menuid',
+  1 => 'lists',
+  2 => 'pages',
+  3 => 'sid',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000963s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user` [ RunTime:0.002430s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user` WHERE  `model` = 2  AND `status` = 1 LIMIT 1 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT `id`,`nick_name`,`mobile` FROM `fang_user` WHERE  `model` = 2  AND `status` = 1 ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:32+08:00] 113.16.60.198 GET admin.gxwebsoft.com/comment/index/menuid/525.html
+[运行时间：0.162531s] [吞吐率：6.15req/s] [内存消耗：5,001.73kb] [文件加载：130]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '525',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/comment/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001558s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user_comment` [ RunTime:0.003384s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` LIMIT 1 [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT `c`.*,`b`.`nick_name` FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` ORDER BY `c`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:32+08:00] 113.16.60.198 GET admin.gxwebsoft.com/comment/index/menuid/525.html
+[运行时间：0.145402s] [吞吐率：6.88req/s] [内存消耗：5,006.23kb] [文件加载：131]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/comment/index/menuid/525.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '525',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/comment/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000767s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user_comment` [ RunTime:0.010880s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT `c`.*,`b`.`nick_name` FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` ORDER BY `c`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:33+08:00] 113.16.60.198 GET admin.gxwebsoft.com/comment/index/menuid/525.html
+[运行时间：0.133089s] [吞吐率：7.51req/s] [内存消耗：5,001.73kb] [文件加载：130]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '525',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/comment/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001063s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user_comment` [ RunTime:0.001861s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `c`.*,`b`.`nick_name` FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` ORDER BY `c`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:33+08:00] 113.16.60.198 GET admin.gxwebsoft.com/comment/index/menuid/525.html
+[运行时间：0.148994s] [吞吐率：6.71req/s] [内存消耗：5,006.23kb] [文件加载：131]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/comment/index/menuid/525.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '525',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/comment/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000723s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user_comment` [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `c`.*,`b`.`nick_name` FROM `fang_user_comment` `c` INNER JOIN `fang_user` `b` ON `b`.`id`=`c`.`broker_id` ORDER BY `c`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:34+08:00] 113.16.60.198 GET admin.gxwebsoft.com/subscribe/index/menuid/526.html
+[运行时间：0.151370s] [吞吐率：6.61req/s] [内存消耗：5,023.53kb] [文件加载：130]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '526',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/subscribe/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+  6 => 'type',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001116s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_subscribe` [ RunTime:0.001757s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' LIMIT 1 [ RunTime:0.001636s ]
+[ sql ] [ SQL ] SELECT `s`.*,`u`.`nick_name`,`h`.`title` FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' ORDER BY `s`.`create_time` DESC LIMIT 0,20 [ RunTime:0.001176s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:34+08:00] 113.16.60.198 GET admin.gxwebsoft.com/subscribe/index/menuid/526.html
+[运行时间：0.133532s] [吞吐率：7.49req/s] [内存消耗：5,028.03kb] [文件加载：131]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/subscribe/index/menuid/526.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '526',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/subscribe/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'list',
+  4 => 'pages',
+  5 => 'options',
+  6 => 'type',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_subscribe` [ RunTime:0.001973s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' LIMIT 1 [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT `s`.*,`u`.`nick_name`,`h`.`title` FROM `fang_subscribe` `s` LEFT JOIN `fang_house` `h` ON `h`.`id`=`s`.`house_id` LEFT JOIN `fang_user` `u` ON `u`.`id`=`s`.`broker_id` WHERE  `s`.`model` = 'house' ORDER BY `s`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:37+08:00] 113.16.60.198 GET admin.gxwebsoft.com/member/ajaxgetbroker/sid/1/menuid/0.html
+[运行时间：0.123415s] [吞吐率：8.10req/s] [内存消耗：4,998.88kb] [文件加载：129]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/subscribe/index/menuid/526.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'menuid' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/member/ajax_get_broker.html [ array (
+  0 => 'menuid',
+  1 => 'lists',
+  2 => 'pages',
+  3 => 'sid',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001474s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_user` WHERE  `model` = 2  AND `status` = 1 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `id`,`nick_name`,`mobile` FROM `fang_user` WHERE  `model` = 2  AND `status` = 1 ORDER BY `id` DESC LIMIT 0,15 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:47+08:00] 113.16.60.198 GET admin.gxwebsoft.com/question-cate/menuid/531.html
+[运行时间：0.144442s] [吞吐率：6.92req/s] [内存消耗：5,182.51kb] [文件加载：132]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'rule' => 'question-cate-<answer?>',
+  'route' => 'Question/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'append' => 
+    array (
+      'city' => 1,
+    ),
+  ),
+  'var' => 
+  array (
+    'menuid' => '531',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '531',
+  'city' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/question/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'pages',
+  3 => 'list',
+  4 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000758s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_question` [ RunTime:0.002891s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_question` LIMIT 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `fang_question` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000653s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:47+08:00] 113.16.60.198 GET admin.gxwebsoft.com/question-cate/menuid/531.html
+[运行时间：0.127882s] [吞吐率：7.82req/s] [内存消耗：4,989.75kb] [文件加载：130]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'rule' => 'question-cate-<answer?>',
+  'route' => 'Question/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'append' => 
+    array (
+      'city' => 1,
+    ),
+  ),
+  'var' => 
+  array (
+    'menuid' => '531',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/question-cate/menuid/531.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '531',
+  'city' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/question/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'pages',
+  3 => 'list',
+  4 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001418s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_question` [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_question` LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `fang_question` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:51+08:00] 113.16.60.198 GET admin.gxwebsoft.com/answer/index/question_id/7/menuid/531.html
+[运行时间：0.151826s] [吞吐率：6.59req/s] [内存消耗：5,187.37kb] [文件加载：133]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/question-cate/menuid/531.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'question_id' => '7',
+  'menuid' => '531',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/answer/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'list',
+  3 => 'pages',
+  4 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000893s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_answer` [ RunTime:0.002865s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_answer` `a` INNER JOIN `fang_question` `q` ON `q`.`id`=`a`.`question_id` LIMIT 1 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT `a`.*,q.content as questioin_con FROM `fang_answer` `a` INNER JOIN `fang_question` `q` ON `q`.`id`=`a`.`question_id` ORDER BY `a`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[2019-07-10T12:06:52+08:00] 113.16.60.198 GET admin.gxwebsoft.com/answer/index/question_id/7/menuid/531.html
+[运行时间：0.145687s] [吞吐率：6.86req/s] [内存消耗：5,001.75kb] [文件加载：131]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/answer/index/question_id/7/menuid/531.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'question_id' => '7',
+  'menuid' => '531',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/answer/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'list',
+  3 => 'pages',
+  4 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001595s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_answer` [ RunTime:0.003277s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_answer` `a` INNER JOIN `fang_question` `q` ON `q`.`id`=`a`.`question_id` LIMIT 1 [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT `a`.*,q.content as questioin_con FROM `fang_answer` `a` INNER JOIN `fang_question` `q` ON `q`.`id`=`a`.`question_id` ORDER BY `a`.`create_time` DESC LIMIT 0,20 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[2019-07-10T12:07:01+08:00] 113.16.60.198 GET admin.gxwebsoft.com/index/left.html?menuid=617
+[运行时间：0.187795s] [吞吐率：5.32req/s] [内存消耗：4,815.13kb] [文件加载：125]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '617',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-07-10T12:07:02+08:00] 113.16.60.198 GET admin.gxwebsoft.com/agent_company/index/menuid/619.html
+[运行时间：0.172442s] [吞吐率：5.80req/s] [内存消耗：5,217.74kb] [文件加载：133]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '619',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/agent_company/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'search',
+  3 => 'pages',
+  4 => 'list',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001062s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_agent_company` [ RunTime:0.002772s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_agent_company` LIMIT 1 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `fang_agent_company` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000691s ]
+---------------------------------------------------------------
+[2019-07-10T12:07:03+08:00] 113.16.60.198 GET admin.gxwebsoft.com/agent_company/index/menuid/linkmenu.js
+[运行时间：0.175616s] [吞吐率：5.69req/s] [内存消耗：4,995.63kb] [文件加载：129]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/agent_company/index/menuid/619.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => 'linkmenu.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/agent_company/index.html [ array (
+  0 => 'menuid',
+  1 => 'search',
+  2 => 'pages',
+  3 => 'list',
+  4 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001485s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_agent_company` [ RunTime:0.001974s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_agent_company` LIMIT 1 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `fang_agent_company` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[2019-07-10T12:07:03+08:00] 113.16.60.198 GET admin.gxwebsoft.com/agent_role/index/menuid/624.html
+[运行时间：0.162990s] [吞吐率：6.14req/s] [内存消耗：5,178.71kb] [文件加载：133]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '624',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/agent_role/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'big_menu',
+  3 => 'pages',
+  4 => 'list',
+  5 => 'options',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_agent_role` [ RunTime:0.001895s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_agent_role` LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `fang_agent_role` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[2019-07-10T12:07:04+08:00] 113.16.60.198 GET admin.gxwebsoft.com/agent_menu/index/menuid/628.html
+[运行时间：0.151686s] [吞吐率：6.59req/s] [内存消耗：5,311.95kb] [文件加载：131]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '628',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/manage/view/agent_menu/index.html [ array (
+  0 => 'sub_menu',
+  1 => 'menuid',
+  2 => 'options',
+  3 => 'big_menu',
+  4 => 'list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000929s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_agent_menu` [ RunTime:0.002525s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,title as name,`ordid` FROM `fang_agent_menu` [ RunTime:0.000911s ]
+---------------------------------------------------------------
+[2019-07-10T12:07:05+08:00] 113.16.60.198 GET admin.gxwebsoft.com/index/left.html?menuid=9
+[运行时间：0.187472s] [吞吐率：5.33req/s] [内存消耗：4,821.75kb] [文件加载：125]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-07-10T12:07:06+08:00] 113.16.60.198 GET admin.gxwebsoft.com/index/left.html?menuid=20
+[运行时间：0.163764s] [吞吐率：6.11req/s] [内存消耗：4,818.41kb] [文件加载：125]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '20',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-07-10T12:07:09+08:00] 113.16.60.198 GET admin.gxwebsoft.com/index/left.html?menuid=517
+[运行时间：0.174274s] [吞吐率：5.74req/s] [内存消耗：4,825.09kb] [文件加载：125]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '517',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-07-10T12:07:10+08:00] 113.16.60.198 GET admin.gxwebsoft.com/index/left.html?menuid=617
+[运行时间：0.199465s] [吞吐率：5.01req/s] [内存消耗：4,815.13kb] [文件加载：125]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; PHPSESSID=7l9h2qr30j7g7mvkl3p4jftvi5; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.gxwebsoft.com/',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'admin.gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '617',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-07-10T12:07:14+08:00] 113.16.60.198 GET gxwebsoft.com/news-3.html
+[运行时间：0.113881s] [吞吐率：8.78req/s] [内存消耗：5,026.98kb] [文件加载：135]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'rule' => 'news-<cate>',
+  'route' => 'News/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'append' => 
+    array (
+      'city' => 1,
+    ),
+  ),
+  'var' => 
+  array (
+    'cate' => '3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://gxwebsoft.com/news.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cate' => '3',
+  'city' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/news/index.html [ array (
+  0 => 'userInfo',
+  1 => 'menu',
+  2 => 'seo',
+  3 => 'site',
+  4 => 'qq',
+  5 => 'controller',
+  6 => 'cityInfo',
+  7 => 'cur_url',
+  8 => 'city_all_child',
+  9 => 'top_nav_city',
+  10 => 'cityId',
+  11 => 'cate_id',
+  12 => 'lists',
+  13 => 'pages',
+  14 => 'cate',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002182s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_city` [ RunTime:0.002453s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`domain`,`seo_title`,`seo_keys`,`seo_desc` FROM `fang_city` WHERE  `status` = 1  AND `pid` = 0 ORDER BY `ordid` ASC,`id` ASC LIMIT 1 [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_article_cate` [ RunTime:0.001955s ]
+[ sql ] [ SQL ] SELECT `name`,`seo_title`,`seo_keys`,`seo_desc` FROM `fang_article_cate` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT `spid` FROM `fang_article_cate` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fang_article_cate` WHERE  `spid` LIKE '3|%' [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_article` [ RunTime:0.002238s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_article` WHERE (  `status` = 1  AND `cate_id` IN (3)  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`hits`,`description`,`create_time` FROM `fang_article` WHERE (  `status` = 1  AND `cate_id` IN (3)  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 0,10 [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  ( status=1 and city = 35 ) ) AND `fang_article`.`delete_time` IS NULL ORDER BY `hits` DESC LIMIT 10 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_house` [ RunTime:0.001707s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( status=1 and city in (38,39,40,41,42,43,44,35) ) ORDER BY `id` DESC LIMIT 2 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_position` [ RunTime:0.001147s ]
+[ sql ] [ SQL ] SELECT t.id,t.title,t.img,(case t.price when 0 then '待定' else t.price end) as price,t.unit,t.city FROM `fang_position` `p` INNER JOIN `fang_house` `t` ON `t`.`id`=`p`.`house_id` WHERE  ( p.status = 1 and p.cate_id = 1 and t.status = 1 and p.model = 'house' and t.city in (38,39,40,41,42,43,44,35) ) ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_house` WHERE  ( status=1 and city in (38,39,40,41,42,43,44,35) ) ORDER BY `ordid` ASC,`id` DESC LIMIT 50 [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[2019-07-10T12:07:14+08:00] 113.16.60.198 GET gxwebsoft.com/uploads/house/20180402/e9b3810c6ae2ba21dc34608edd00a265.jpg
+[运行时间：0.079978s] [吞吐率：12.50req/s] [内存消耗：3,294.00kb] [文件加载：106]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://gxwebsoft.com/news-3.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  0 => 'e9b3810c6ae2ba21dc34608edd00a265.jpg',
+)
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/public/404.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-07-10T12:07:15+08:00] 113.16.60.198 GET gxwebsoft.com/news/117.html
+[运行时间：0.103103s] [吞吐率：9.70req/s] [内存消耗：4,918.59kb] [文件加载：131]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'rule' => 'news/<id>',
+  'route' => 'News/detail',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'append' => 
+    array (
+      'city' => 1,
+    ),
+  ),
+  'var' => 
+  array (
+    'id' => '117',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://gxwebsoft.com/news-3.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '117',
+  'city' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/news/detail.html [ array (
+  0 => 'userInfo',
+  1 => 'menu',
+  2 => 'seo',
+  3 => 'site',
+  4 => 'qq',
+  5 => 'controller',
+  6 => 'cityInfo',
+  7 => 'cur_url',
+  8 => 'city_all_child',
+  9 => 'top_nav_city',
+  10 => 'cityId',
+  11 => 'cate',
+  12 => 'info',
+  13 => 'relation',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000913s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_city` [ RunTime:0.001451s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`domain`,`seo_title`,`seo_keys`,`seo_desc` FROM `fang_city` WHERE  `status` = 1  AND `pid` = 0 ORDER BY `ordid` ASC,`id` ASC LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_article` [ RunTime:0.001604s ]
+[ sql ] [ SQL ] SELECT * FROM `fang_article` WHERE (  `status` = 1  AND `id` = 117 ) AND `fang_article`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000788s ]
+[ sql ] [ SQL ] UPDATE `fang_article`  SET `hits` = `hits` + 1  WHERE (  `id` = 117 ) AND `fang_article`.`delete_time` IS NULL [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`create_time` FROM `fang_article` WHERE (  `status` = 1  AND `cate_id` = 3  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `create_time` DESC LIMIT 5 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  ( status=1 and city = 35 ) ) AND `fang_article`.`delete_time` IS NULL ORDER BY `hits` DESC LIMIT 10 [ RunTime:0.002775s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_house` [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( status=1 and city in (38,39,40,41,42,43,44,35) ) ORDER BY `id` DESC LIMIT 2 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_position` [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT t.id,t.title,t.img,(case t.price when 0 then '待定' else t.price end) as price,t.unit,t.city FROM `fang_position` `p` INNER JOIN `fang_house` `t` ON `t`.`id`=`p`.`house_id` WHERE  ( p.status = 1 and p.cate_id = 1 and t.status = 1 and p.model = 'house' and t.city in (38,39,40,41,42,43,44,35) ) ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_house` WHERE  ( status=1 and city in (38,39,40,41,42,43,44,35) ) ORDER BY `ordid` ASC,`id` DESC LIMIT 50 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[2019-07-10T12:07:15+08:00] 113.16.60.198 GET gxwebsoft.com/uploads/house/20180402/e9b3810c6ae2ba21dc34608edd00a265.jpg
+[运行时间：0.062933s] [吞吐率：15.89req/s] [内存消耗：3,294.00kb] [文件加载：106]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://gxwebsoft.com/news/117.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  0 => 'e9b3810c6ae2ba21dc34608edd00a265.jpg',
+)
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/public/404.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-07-10T12:07:15+08:00] 113.16.60.198 GET gxwebsoft.com/news/favicon.ico
+[运行时间：0.102000s] [吞吐率：9.80req/s] [内存消耗：5,024.23kb] [文件加载：135]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'rule' => 'news',
+  'route' => 'News/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'append' => 
+    array (
+      'city' => 1,
+    ),
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://gxwebsoft.com/news/117.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'city' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/news/index.html [ array (
+  0 => 'userInfo',
+  1 => 'menu',
+  2 => 'seo',
+  3 => 'site',
+  4 => 'qq',
+  5 => 'controller',
+  6 => 'cityInfo',
+  7 => 'cur_url',
+  8 => 'city_all_child',
+  9 => 'top_nav_city',
+  10 => 'cityId',
+  11 => 'cate_id',
+  12 => 'lists',
+  13 => 'pages',
+  14 => 'cate',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_city` [ RunTime:0.002271s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`domain`,`seo_title`,`seo_keys`,`seo_desc` FROM `fang_city` WHERE  `status` = 1  AND `pid` = 0 ORDER BY `ordid` ASC,`id` ASC LIMIT 1 [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_article` [ RunTime:0.002201s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_article` WHERE (  `status` = 1  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002293s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`hits`,`description`,`create_time` FROM `fang_article` WHERE (  `status` = 1  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 0,10 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  ( status=1 and city = 35 ) ) AND `fang_article`.`delete_time` IS NULL ORDER BY `hits` DESC LIMIT 10 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_house` [ RunTime:0.001784s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( status=1 and city in (38,39,40,41,42,43,44,35) ) ORDER BY `id` DESC LIMIT 2 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_position` [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT t.id,t.title,t.img,(case t.price when 0 then '待定' else t.price end) as price,t.unit,t.city FROM `fang_position` `p` INNER JOIN `fang_house` `t` ON `t`.`id`=`p`.`house_id` WHERE  ( p.status = 1 and p.cate_id = 1 and t.status = 1 and p.model = 'house' and t.city in (38,39,40,41,42,43,44,35) ) ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_house` WHERE  ( status=1 and city in (38,39,40,41,42,43,44,35) ) ORDER BY `ordid` ASC,`id` DESC LIMIT 50 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[2019-07-10T12:07:23+08:00] 113.16.60.198 GET gxwebsoft.com/
+[运行时间：0.193992s] [吞吐率：5.15req/s] [内存消耗：5,339.07kb] [文件加载：140]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'Index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'append' => 
+    array (
+      'city' => 1,
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://gxwebsoft.com/news-3.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'city' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/index/index.html [ array (
+  0 => 'userInfo',
+  1 => 'menu',
+  2 => 'seo',
+  3 => 'site',
+  4 => 'qq',
+  5 => 'controller',
+  6 => 'cityInfo',
+  7 => 'cur_url',
+  8 => 'city_all_child',
+  9 => 'top_nav_city',
+  10 => 'cityId',
+  11 => 'full_module',
+  12 => 'fix_module',
+  13 => 'area',
+  14 => 'search_city',
+  15 => 'group',
+  16 => 'rec_house',
+  17 => 'discount_house',
+  18 => 'hot_house',
+  19 => 'recommon',
+  20 => 'neareast_house',
+  21 => 'house_news',
+  22 => 'house_guide',
+  23 => 'news_cate_2',
+  24 => 'news_cate_3',
+  25 => 'second_house',
+  26 => 'rental_house',
+  27 => 'estate',
+  28 => 'ups_downs_house',
+  29 => 'ups_downs_second_house',
+  30 => 'news_cate_5',
+  31 => 'special',
+  32 => 'house_type',
+  33 => 'rental_type',
+  34 => 'broker',
+  35 => 'new_subscribe',
+  36 => 'time',
+) ]
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/module/index/31.html [ array (
+  0 => 'userInfo',
+  1 => 'menu',
+  2 => 'seo',
+  3 => 'site',
+  4 => 'qq',
+  5 => 'controller',
+  6 => 'cityInfo',
+  7 => 'cur_url',
+  8 => 'city_all_child',
+  9 => 'top_nav_city',
+  10 => 'cityId',
+  11 => 'full_module',
+  12 => 'fix_module',
+  13 => 'area',
+  14 => 'search_city',
+  15 => 'group',
+  16 => 'rec_house',
+  17 => 'discount_house',
+  18 => 'hot_house',
+  19 => 'recommon',
+  20 => 'neareast_house',
+  21 => 'house_news',
+  22 => 'house_guide',
+  23 => 'news_cate_2',
+  24 => 'news_cate_3',
+  25 => 'second_house',
+  26 => 'rental_house',
+  27 => 'estate',
+  28 => 'ups_downs_house',
+  29 => 'ups_downs_second_house',
+  30 => 'news_cate_5',
+  31 => 'special',
+  32 => 'house_type',
+  33 => 'rental_type',
+  34 => 'broker',
+  35 => 'new_subscribe',
+  36 => 'time',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000824s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_city` [ RunTime:0.001994s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`domain`,`seo_title`,`seo_keys`,`seo_desc` FROM `fang_city` WHERE  `status` = 1  AND `pid` = 0 ORDER BY `ordid` ASC,`id` ASC LIMIT 1 [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_position` [ RunTime:0.001833s ]
+[ sql ] [ SQL ] SELECT h.id,h.img,h.title,(case h.price when 0 then '待定' else h.price end) as price,h.unit,h.city FROM `fang_position` `p` INNER JOIN `fang_house` `h` ON `p`.`house_id`=`h`.`id` WHERE  `p`.`status` = '1'  AND `p`.`cate_id` = '4'  AND `h`.`status` = '1'  AND `p`.`model` = 'house'  AND `h`.`city` IN ('38','39','40','41','42','43','44','35') ORDER BY `p`.`ordid` ASC,`h`.`id` DESC LIMIT 4 [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT h.id,h.img,h.title,(case h.price when 0 then '待定' else h.price end) as price,h.unit,h.city FROM `fang_position` `p` INNER JOIN `fang_house` `h` ON `p`.`house_id`=`h`.`id` WHERE  `p`.`status` = '1'  AND `p`.`cate_id` = '3'  AND `h`.`status` = '1'  AND `p`.`model` = 'house'  AND `h`.`city` IN ('38','39','40','41','42','43','44','35') ORDER BY `p`.`ordid` ASC,`h`.`id` DESC LIMIT 4 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT h.id,h.img,h.title,(case h.price when 0 then '待定' else h.price end) as price,h.unit,h.city FROM `fang_position` `p` INNER JOIN `fang_house` `h` ON `p`.`house_id`=`h`.`id` WHERE  `p`.`status` = '1'  AND `p`.`cate_id` = '1'  AND `h`.`status` = '1'  AND `p`.`model` = 'house'  AND `h`.`city` IN ('38','39','40','41','42','43','44','35') ORDER BY `p`.`ordid` ASC,`h`.`id` DESC LIMIT 4 [ RunTime:0.000626s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000814s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_module` [ RunTime:0.003237s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fang_module` WHERE  `type` = 1  AND `status` = 1  AND `terminal` = 1 ORDER BY `ordid` ASC [ RunTime:0.000557s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000776s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SELECT `id` FROM `fang_module` WHERE  `type` = 2  AND `status` = 1  AND `terminal` = 1 ORDER BY `ordid` ASC [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_group` [ RunTime:0.003136s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`price`,`end_time`,`discount`,`img` FROM `fang_group` WHERE  `status` = 1  AND `begin_time` < 1562731643  AND `end_time` > 1562731643  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 4 [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_house` [ RunTime:0.002382s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city`,`discount` FROM `fang_house` WHERE  `status` = 1  AND `is_discount` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT h.id,h.img,h.title,(case h.price when 0 then '待定' else h.price end) as price,h.unit,h.city FROM `fang_position` `p` INNER JOIN `fang_house` `h` ON `p`.`house_id`=`h`.`id` WHERE  `p`.`status` = '1'  AND `p`.`cate_id` = '2'  AND `h`.`status` = '1'  AND `p`.`model` = 'house'  AND `h`.`city` IN ('38','39','40','41','42','43','44','35') ORDER BY `p`.`ordid` ASC,`h`.`id` DESC LIMIT 3 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT id,title,price,unit,FROM_UNIXTIME(opening_time,"%m月%d日") as opening_time FROM `fang_house` WHERE  `status` = 1  AND `opening_time` > 1557547643  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `opening_time` DESC,`id` DESC [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_article` [ RunTime:0.001874s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  `status` = 1  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 14 [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(12,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(13,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(14,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(15,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(16,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(17,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(18,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(19,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(68,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(69,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  `status` = 1  AND `cate_id` = 2  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 5 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  `status` = 1  AND `cate_id` = 3  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 5 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_second_house` [ RunTime:0.002258s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`estate_name`,`img`,`average_price`,`city`,`room`,`living_room`,`acreage` FROM `fang_second_house` WHERE  `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_rental` [ RunTime:0.002943s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`estate_name`,`img`,`price`,`city`,`room`,`living_room`,`acreage` FROM `fang_rental` WHERE  `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_estate` [ RunTime:0.001898s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`city` FROM `fang_estate` WHERE  `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`ratio`,`price`,`unit` FROM `fang_house` WHERE  `status` = 1  AND `ratio` <> 0  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 8 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`ratio`,`average_price` FROM `fang_second_house` WHERE  `status` = 1  AND `ratio` <> 0  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 8 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  `status` = 1  AND `cate_id` = 5  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 8 [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user` [ RunTime:0.001978s ]
+[ sql ] [ SQL ] SELECT `u`.`id`,`u`.`nick_name` FROM `fang_user` `u` INNER JOIN `fang_user_info` `d` ON `u`.`id`=`d`.`user_id` WHERE  `u`.`status` = '1'  AND `u`.`recommon` = '1'  AND (  find_in_set(38,d.service_area) or find_in_set(39,d.service_area) or find_in_set(40,d.service_area) or find_in_set(41,d.service_area) or find_in_set(42,d.service_area) or find_in_set(43,d.service_area) or find_in_set(44,d.service_area) or find_in_set(35,d.service_area) ) ORDER BY `u`.`id` DESC LIMIT 4 [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_subscribe` [ RunTime:0.002841s ]
+[ sql ] [ SQL ] SELECT `mobile`,`create_time` FROM `fang_subscribe` ORDER BY `create_time` DESC LIMIT 10 [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_link` [ RunTime:0.001899s ]
+[ sql ] [ SQL ] SELECT `name`,`url` FROM `fang_link` WHERE  ( cate_id=1 and status=1 and city = 35 ) ORDER BY `ordid` ASC,`id` DESC LIMIT 40 [ RunTime:0.000480s ]
+---------------------------------------------------------------
+[2019-07-10T12:07:27+08:00] 113.16.60.198 GET gxwebsoft.com/user.index/index.html
+[运行时间：0.139687s] [吞吐率：7.16req/s] [内存消耗：12,954.65kb] [文件加载：124]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://gxwebsoft.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/user/index/index.html [ array (
+  0 => 'userInfo',
+  1 => 'menu',
+  2 => 'city',
+  3 => 'site',
+  4 => 'cityInfo',
+  5 => 'controller',
+  6 => 'action',
+  7 => 'model',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001175s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user` [ RunTime:0.001554s ]
+[ sql ] [ SQL ] SELECT `id`,`nick_name`,`model`,`money`,`login_time`,`login_ip` FROM `fang_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000722s ]
+---------------------------------------------------------------
+[2019-07-10T12:07:27+08:00] 113.16.60.198 GET gxwebsoft.com/user.index/pannel.html
+[运行时间：0.146574s] [吞吐率：6.82req/s] [内存消耗：13,308.01kb] [文件加载：133]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://gxwebsoft.com/user.index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/user/index/pannel.html [ array (
+  0 => 'userInfo',
+  1 => 'menu',
+  2 => 'city',
+  3 => 'site',
+  4 => 'cityInfo',
+  5 => 'controller',
+  6 => 'action',
+  7 => 'user_cate',
+  8 => 'check',
+  9 => 'info',
+  10 => 'count',
+  11 => 'level',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_second_house` [ RunTime:0.001699s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_rental` [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_office` [ RunTime:0.001991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_office_rental` [ RunTime:0.001718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_shops` [ RunTime:0.001675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_shops_rental` [ RunTime:0.001506s ]
+[ sql ] [ SQL ] select sum(second_total) as second_total,sum(second_total_day) as second_total_day,sum(rental_total) as rental_total,sum(rental_total_day) as rental_total_day,sum(office_total) as office_total,sum(office_total_day) as office_total_day,sum(office_rental_total) as office_rental_total,sum(office_rental_total_day) as office_rental_total_day,sum(shops_total) as shops_total,sum(shops_total_day) as shops_total_day,sum(shops_rental_total) as shops_rental_total,sum(shops_rental_total_day) as shops_rental_total_day from (( SELECT count(*) as second_total,count(case when create_time > 1562688000 and create_time<= 1562774399 then create_time end) as second_total_day,0 rental_total,0 rental_total_day,0 office_total,0 office_total_day,0 office_rental_total,0 office_rental_total_day,0 shops_total,0 shops_total_day,0 shops_rental_total,0 shops_rental_total_day FROM `fang_second_house` WHERE  `broker_id` = 3  AND `timeout` > 1562731647 ) union ( SELECT 0 second_total,0 second_total_day,count(*) as rental_total,count(case when create_time > 1562688000 and create_time<= 1562774399 then create_time end) as rental_total_day,0 office_total,0 office_total_day,0 office_rental_total,0 office_rental_total_day,0 shops_total,0 shops_total_day,0 shops_rental_total,0 shops_rental_total_day FROM `fang_rental` WHERE  `broker_id` = 3  AND `timeout` > 1562731647 ) union ( SELECT 0 second_total,0 second_total_day,0 rental_total,0 rental_total_day,count(*) as office_total,count(case when create_time > 1562688000 and create_time<= 1562774399 then create_time end) as office_total_day,0 office_rental_total,0 office_rental_total_day,0 shops_total,0 shops_total_day,0 shops_rental_total,0 shops_rental_total_day FROM `fang_office` WHERE  `broker_id` = 3  AND `timeout` > 1562731647 ) union ( SELECT 0 second_total,0 second_total_day,0 rental_total,0 rental_total_day,0 office_total,0 office_total_day,count(*) as office_rental_total,count(case when create_time > 1562688000 and create_time<= 1562774399 then create_time end) as office_rental_total_day,0 shops_total,0 shops_total_day,0 shops_rental_total,0 shops_rental_total_day FROM `fang_office_rental` WHERE  `broker_id` = 3  AND `timeout` > 1562731647 ) union ( SELECT 0 second_total,0 second_total_day,0 rental_total,0 rental_total_day,0 office_total,0 office_total_day,0 office_rental_total,0 office_rental_total_day,count(*) as shops_total,count(case when create_time > 1562688000 and create_time<= 1562774399 then create_time end) as shops_total_day,0 shops_rental_total,0 shops_rental_total_day FROM `fang_shops` WHERE  `broker_id` = 3  AND `timeout` > 1562731647 ) union ( SELECT 0 second_total,0 second_total_day,0 rental_total,0 rental_total_day,0 office_total,0 office_total_day,0 office_rental_total,0 office_rental_total_day,0 shops_total,0 shops_total_day,count(*) as shops_rental_total,count(case when create_time > 1562688000 and create_time<= 1562774399 then create_time end) as shops_rental_total_day FROM `fang_shops_rental` WHERE  `broker_id` = 3  AND `timeout` > 1562731647 )) t [ RunTime:0.001968s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_pages` [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SELECT * FROM `fang_pages` WHERE  `cate_id` = 4 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user` [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT `id`,`nick_name`,`model`,`money`,`login_time`,`login_ip` FROM `fang_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user_cate` [ RunTime:0.001744s ]
+[ sql ] [ SQL ] SELECT `ordid` FROM `fang_user_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[2019-07-10T12:08:12+08:00] 113.16.60.198 GET gxwebsoft.com/
+[运行时间：0.185895s] [吞吐率：5.38req/s] [内存消耗：5,339.07kb] [文件加载：140]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'Index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'append' => 
+    array (
+      'city' => 1,
+    ),
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=16a9031b2d49d3-08a0e1354b3246-10326653-fa000-16a9031b2d5440; pgv_pvi=2866243584; cityInfo=%7B%22id%22%3A35%2C%22name%22%3A%22%E5%8D%97%E5%AE%81%22%2C%22domain%22%3A%22nn%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; userInfo=AKOvwX8wGYBwA9y1_MbY_dhX_qEmQfLYT30CxyIkZXQxZEg2jBQodt9dfISKcbUKlRDblLVJ1XUNXb8aibwH0yFoFr_bVyFp2WC8CSO-IkMfzUTLOZ0Y9TXM4n1-GRiGNXpNwDIVE36',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://gxwebsoft.com/user.index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'gxwebsoft.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'city' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/index/index.html [ array (
+  0 => 'userInfo',
+  1 => 'menu',
+  2 => 'seo',
+  3 => 'site',
+  4 => 'qq',
+  5 => 'controller',
+  6 => 'cityInfo',
+  7 => 'cur_url',
+  8 => 'city_all_child',
+  9 => 'top_nav_city',
+  10 => 'cityId',
+  11 => 'full_module',
+  12 => 'fix_module',
+  13 => 'area',
+  14 => 'search_city',
+  15 => 'group',
+  16 => 'rec_house',
+  17 => 'discount_house',
+  18 => 'hot_house',
+  19 => 'recommon',
+  20 => 'neareast_house',
+  21 => 'house_news',
+  22 => 'house_guide',
+  23 => 'news_cate_2',
+  24 => 'news_cate_3',
+  25 => 'second_house',
+  26 => 'rental_house',
+  27 => 'estate',
+  28 => 'ups_downs_house',
+  29 => 'ups_downs_second_house',
+  30 => 'news_cate_5',
+  31 => 'special',
+  32 => 'house_type',
+  33 => 'rental_type',
+  34 => 'broker',
+  35 => 'new_subscribe',
+  36 => 'time',
+) ]
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/module/index/31.html [ array (
+  0 => 'userInfo',
+  1 => 'menu',
+  2 => 'seo',
+  3 => 'site',
+  4 => 'qq',
+  5 => 'controller',
+  6 => 'cityInfo',
+  7 => 'cur_url',
+  8 => 'city_all_child',
+  9 => 'top_nav_city',
+  10 => 'cityId',
+  11 => 'full_module',
+  12 => 'fix_module',
+  13 => 'area',
+  14 => 'search_city',
+  15 => 'group',
+  16 => 'rec_house',
+  17 => 'discount_house',
+  18 => 'hot_house',
+  19 => 'recommon',
+  20 => 'neareast_house',
+  21 => 'house_news',
+  22 => 'house_guide',
+  23 => 'news_cate_2',
+  24 => 'news_cate_3',
+  25 => 'second_house',
+  26 => 'rental_house',
+  27 => 'estate',
+  28 => 'ups_downs_house',
+  29 => 'ups_downs_second_house',
+  30 => 'news_cate_5',
+  31 => 'special',
+  32 => 'house_type',
+  33 => 'rental_type',
+  34 => 'broker',
+  35 => 'new_subscribe',
+  36 => 'time',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000901s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_city` [ RunTime:0.001901s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`domain`,`seo_title`,`seo_keys`,`seo_desc` FROM `fang_city` WHERE  `status` = 1  AND `pid` = 0 ORDER BY `ordid` ASC,`id` ASC LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_position` [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT h.id,h.img,h.title,(case h.price when 0 then '待定' else h.price end) as price,h.unit,h.city FROM `fang_position` `p` INNER JOIN `fang_house` `h` ON `p`.`house_id`=`h`.`id` WHERE  `p`.`status` = '1'  AND `p`.`cate_id` = '4'  AND `h`.`status` = '1'  AND `p`.`model` = 'house'  AND `h`.`city` IN ('38','39','40','41','42','43','44','35') ORDER BY `p`.`ordid` ASC,`h`.`id` DESC LIMIT 4 [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT h.id,h.img,h.title,(case h.price when 0 then '待定' else h.price end) as price,h.unit,h.city FROM `fang_position` `p` INNER JOIN `fang_house` `h` ON `p`.`house_id`=`h`.`id` WHERE  `p`.`status` = '1'  AND `p`.`cate_id` = '3'  AND `h`.`status` = '1'  AND `p`.`model` = 'house'  AND `h`.`city` IN ('38','39','40','41','42','43','44','35') ORDER BY `p`.`ordid` ASC,`h`.`id` DESC LIMIT 4 [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT h.id,h.img,h.title,(case h.price when 0 then '待定' else h.price end) as price,h.unit,h.city FROM `fang_position` `p` INNER JOIN `fang_house` `h` ON `p`.`house_id`=`h`.`id` WHERE  `p`.`status` = '1'  AND `p`.`cate_id` = '1'  AND `h`.`status` = '1'  AND `p`.`model` = 'house'  AND `h`.`city` IN ('38','39','40','41','42','43','44','35') ORDER BY `p`.`ordid` ASC,`h`.`id` DESC LIMIT 4 [ RunTime:0.000487s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_module` [ RunTime:0.001487s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fang_module` WHERE  `type` = 1  AND `status` = 1  AND `terminal` = 1 ORDER BY `ordid` ASC [ RunTime:0.000382s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000796s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SELECT `id` FROM `fang_module` WHERE  `type` = 2  AND `status` = 1  AND `terminal` = 1 ORDER BY `ordid` ASC [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_group` [ RunTime:0.001572s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`price`,`end_time`,`discount`,`img` FROM `fang_group` WHERE  `status` = 1  AND `begin_time` < 1562731692  AND `end_time` > 1562731692  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 4 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_house` [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city`,`discount` FROM `fang_house` WHERE  `status` = 1  AND `is_discount` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT h.id,h.img,h.title,(case h.price when 0 then '待定' else h.price end) as price,h.unit,h.city FROM `fang_position` `p` INNER JOIN `fang_house` `h` ON `p`.`house_id`=`h`.`id` WHERE  `p`.`status` = '1'  AND `p`.`cate_id` = '2'  AND `h`.`status` = '1'  AND `p`.`model` = 'house'  AND `h`.`city` IN ('38','39','40','41','42','43','44','35') ORDER BY `p`.`ordid` ASC,`h`.`id` DESC LIMIT 3 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT id,title,price,unit,FROM_UNIXTIME(opening_time,"%m月%d日") as opening_time FROM `fang_house` WHERE  `status` = 1  AND `opening_time` > 1557547692  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `opening_time` DESC,`id` DESC [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_article` [ RunTime:0.001629s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  `status` = 1  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 14 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(12,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(13,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(14,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(15,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(16,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(17,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(18,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(19,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(68,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( find_in_set(69,tags_id) )  AND `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  `status` = 1  AND `cate_id` = 2  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 5 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  `status` = 1  AND `cate_id` = 3  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 5 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_second_house` [ RunTime:0.001812s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`estate_name`,`img`,`average_price`,`city`,`room`,`living_room`,`acreage` FROM `fang_second_house` WHERE  `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_rental` [ RunTime:0.002169s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`estate_name`,`img`,`price`,`city`,`room`,`living_room`,`acreage` FROM `fang_rental` WHERE  `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_estate` [ RunTime:0.001884s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`city` FROM `fang_estate` WHERE  `status` = 1  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 6 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`ratio`,`price`,`unit` FROM `fang_house` WHERE  `status` = 1  AND `ratio` <> 0  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 8 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`ratio`,`average_price` FROM `fang_second_house` WHERE  `status` = 1  AND `ratio` <> 0  AND `city` IN (38,39,40,41,42,43,44,35) ORDER BY `ordid` ASC,`id` DESC LIMIT 8 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  `status` = 1  AND `cate_id` = 5  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 8 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_user` [ RunTime:0.001783s ]
+[ sql ] [ SQL ] SELECT `u`.`id`,`u`.`nick_name` FROM `fang_user` `u` INNER JOIN `fang_user_info` `d` ON `u`.`id`=`d`.`user_id` WHERE  `u`.`status` = '1'  AND `u`.`recommon` = '1'  AND (  find_in_set(38,d.service_area) or find_in_set(39,d.service_area) or find_in_set(40,d.service_area) or find_in_set(41,d.service_area) or find_in_set(42,d.service_area) or find_in_set(43,d.service_area) or find_in_set(44,d.service_area) or find_in_set(35,d.service_area) ) ORDER BY `u`.`id` DESC LIMIT 4 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_subscribe` [ RunTime:0.001485s ]
+[ sql ] [ SQL ] SELECT `mobile`,`create_time` FROM `fang_subscribe` ORDER BY `create_time` DESC LIMIT 10 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_link` [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT `name`,`url` FROM `fang_link` WHERE  ( cate_id=1 and status=1 and city = 35 ) ORDER BY `ordid` ASC,`id` DESC LIMIT 40 [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[2019-07-10T12:11:27+08:00] 42.156.137.29 GET www.gxwebsoft.com/news/show/449.html?page=11
+[运行时间：0.121635s] [吞吐率：8.22req/s] [内存消耗：4,944.12kb] [文件加载：132]
+[ info ] [ LANG ] /home/wwwroot/gxwebsoft/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'rule' => 'news',
+  'route' => 'News/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'append' => 
+    array (
+      'city' => 1,
+    ),
+  ),
+  'var' => 
+  array (
+    'show' => '449',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 YisouSpider/5.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.gxwebsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '11',
+  'show' => '449',
+  'city' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/gxwebsoft/public_html/application/home/view/news/index.html [ array (
+  0 => 'userInfo',
+  1 => 'menu',
+  2 => 'seo',
+  3 => 'site',
+  4 => 'qq',
+  5 => 'controller',
+  6 => 'cityInfo',
+  7 => 'cur_url',
+  8 => 'city_all_child',
+  9 => 'top_nav_city',
+  10 => 'cityId',
+  11 => 'cate_id',
+  12 => 'lists',
+  13 => 'pages',
+  14 => 'cate',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000978s ] mysql:host=127.0.0.1;dbname=gxwebsoft;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_city` [ RunTime:0.002152s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`domain`,`seo_title`,`seo_keys`,`seo_desc` FROM `fang_city` WHERE  `status` = 1  AND `pid` = 0 ORDER BY `ordid` ASC,`id` ASC LIMIT 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_article` [ RunTime:0.002130s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fang_article` WHERE (  `status` = 1  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`hits`,`description`,`create_time` FROM `fang_article` WHERE (  `status` = 1  AND `city` = 35 ) AND `fang_article`.`delete_time` IS NULL ORDER BY `ordid` ASC,`id` DESC LIMIT 100,10 [ RunTime:0.003456s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_article` WHERE (  ( status=1 and city = 35 ) ) AND `fang_article`.`delete_time` IS NULL ORDER BY `hits` DESC LIMIT 10 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_house` [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`price`,`unit`,`city` FROM `fang_house` WHERE  ( status=1 and city in (38,39,40,41,42,43,44,35) ) ORDER BY `id` DESC LIMIT 2 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fang_position` [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT t.id,t.title,t.img,(case t.price when 0 then '待定' else t.price end) as price,t.unit,t.city FROM `fang_position` `p` INNER JOIN `fang_house` `t` ON `t`.`id`=`p`.`house_id` WHERE  ( p.status = 1 and p.cate_id = 1 and t.status = 1 and p.model = 'house' and t.city in (38,39,40,41,42,43,44,35) ) ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `fang_house` WHERE  ( status=1 and city in (38,39,40,41,42,43,44,35) ) ORDER BY `ordid` ASC,`id` DESC LIMIT 50 [ RunTime:0.000296s ]

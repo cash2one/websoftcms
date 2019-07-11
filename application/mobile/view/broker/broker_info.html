@@ -1,0 +1,32 @@
+<style>
+    .page_list{background-color: #fff;padding-bottom:1rem;}
+</style>
+<div class="agent-survey mb20">
+    <div class="pic"><img src="{:getAvatar($userInfo['id'],90)}" alt="{$userInfo.nick_name}"></div>
+    <div class="survey">
+        <h3>{$userInfo.nick_name}</h3>
+        <p>
+            所属公司：
+            <em>{$userInfo['userInfo']['company']}</em>
+        </p>
+        <p>服务范围：<em>
+
+            {php}$area=array_filter(explode(',',$userInfo['userInfo']['service_area']));{/php}
+            {volist name='area' id='val'}
+            {:getCityName($val,'-')}
+            {/volist}
+        </em></p>
+        <p>
+            {php}$tags=array_filter(explode(',',$userInfo['userInfo']['tags']));{/php}
+            {volist name='tags' id='tag'}
+            <em>{:getLinkMenuName(13,$tag)}</em>
+            {/volist}
+        </p>
+    </div>
+    <ul class="star-level clearfix">
+        {for start='1' end='6'}
+        <li {if condition='$i elt $userInfo["userInfo"]["point"]'}class="on"{/if}></li>
+        {/for}
+
+    </ul>
+</div>

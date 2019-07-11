@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:2:{s:4:"cate";a:3:{i:51;a:4:{s:2:"id";i:51;s:3:"pid";i:0;s:4:"name";s:12:"押一付一";s:5:"alias";s:8:"yayifuyi";}i:52;a:4:{s:2:"id";i:52;s:3:"pid";i:0;s:4:"name";s:12:"押一付三";s:5:"alias";s:9:"yayifusan";}i:53;a:4:{s:2:"id";i:53;s:3:"pid";i:0;s:4:"name";s:12:"押二付三";s:5:"alias";s:9:"yaerfusan";}}s:4:"tree";a:3:{i:51;a:4:{s:2:"id";i:51;s:3:"pid";i:0;s:4:"name";s:12:"押一付一";s:5:"alias";s:8:"yayifuyi";}i:52;a:4:{s:2:"id";i:52;s:3:"pid";i:0;s:4:"name";s:12:"押一付三";s:5:"alias";s:9:"yayifusan";}i:53;a:4:{s:2:"id";i:53;s:3:"pid";i:0;s:4:"name";s:12:"押二付三";s:5:"alias";s:9:"yaerfusan";}}}

@@ -1,0 +1,4 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:2:{s:4:"cate";a:4:{i:151;a:4:{s:2:"id";i:151;s:3:"pid";i:0;s:4:"name";s:9:"幼儿园";s:5:"alias";s:9:"youeryuan";}i:152;a:4:{s:2:"id";i:152;s:3:"pid";i:0;s:4:"name";s:6:"小学";s:5:"alias";s:7:"xiaoxue";}i:153;a:4:{s:2:"id";i:153;s:3:"pid";i:0;s:4:"name";s:6:"初中";s:5:"alias";s:8:"chuzhong";}i:154;a:4:{s:2:"id";i:154;s:3:"pid";i:0;s:4:"name";s:6:"高中";s:5:"alias";s:8:"gaozhong";}}s:4:"tree";a:4:{i:151;a:4:{s:2:"id";i:151;s:3:"pid";i:0;s:4:"name";s:9:"幼儿园";s:5:"alias";s:9:"youeryuan";}i:152;a:4:{s:2:"id";i:152;s:3:"pid";i:0;s:4:"name";s:6:"小学";s:5:"alias";s:7:"xiaoxue";}i:153;a:4:{s:2:"id";i:153;s:3:"pid";i:0;s:4:"name";s:6:"初中";s:5:"alias";s:8:"chuzhong";}i:154;a:4:{s:2:"id";i:154;s:3:"pid";i:0;s:4:"name";s:6:"高中";s:5:"alias";s:8:"gaozhong";}}}
